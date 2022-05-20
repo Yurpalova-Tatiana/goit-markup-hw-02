@@ -5,33 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 
 <body>
+    <!--Шапка сайта-->
     <header>
         <nav>
-           <a href="/">
-             WebStudio
+           <a class="logo-link  href="./index.html" > 
+               <span class=“blue”>Web</span>Studio
            </a>
-           <ul>
-             <li><a href="/">Студия</a></li>
-             <li><a href="/">Портфолио</a></li>
-             <li><a href="/">Контакты</a></li>
+           <ul class="site-nav link">
+             <li class="link-activ link"><a href="/">Студия</a></li>
+             <li class="link-activ link"><a href="./portfolio.html">Портфолио</a></li>
+             <li class="link-activ link"><a href="/">Контакты</a></li>
             </ul>
        </nav>
         <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li class="link"><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li class="header-tel link"><a href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
     </header>
     <main> 
-        <section>
-            <h1>Эффективные решения <br> для вашего бизнеса </h1> 
-            <button type="button">Заказать услугу</button>
-         
+        <section class="section-one">
+            <h1 class="section-title">Эффективные решения <br> для вашего бизнеса </h1> 
+            <button type="button" class="modal-btn">Заказать услугу</button>
         </section>
-        <section> <!--Наши сильные стороны-->
-            <h2> Наши сильные стороны </h2>
+        <section class="hero"> <!--Наши сильные стороны-->
+            <h2 class="hero-title"> Наши сильные стороны </h2>
             <ul>
              <li><h3>ВНИМАНИЕ К ДЕТАЛЯМ</h3>
              <p>Идейные соображения, а также начало повседневной работы по формированию позиций.</p></li>
@@ -43,16 +47,16 @@
              <p>Значимость этих проблем настолько очевидна, что реализация плановых заданий.</p></li>
           </ul>
         </section>
-        <section> <!--Чем мы занимаемся-->
-            <h2>Чем мы занимаемся</h2>
+        <section class="features"> <!--Чем мы занимаемся-->
+            <h2 class="features-title">Чем мы занимаемся</h2>
             <ul>
-                <li> <img src="./images/1page.jpg" alt="1картинка" width="370" height="294"/></li>
-                <li> <img src="./images/2page.jpg" alt="2картинка" width="370" height="294"/></li>
-                <li> <img src="./images/3page.jpg" alt="3картинка" width="370" height="294"/></li>
+                <li> <img src="./images/1page.jpg" alt="1картинка" width="370"/></li>
+                <li> <img src="./images/2page.jpg" alt="2картинка" width="370"/></li>
+                <li> <img src="./images/3page.jpg" alt="3картинка" width="370"/></li>
             </ul>
         </section>
-        <section> <!--Наша команда-->
-            <h2>Наша команда</h2>
+        <section class="work"> <!--Наша команда-->
+            <h2 class="work-title">Наша команда</h2>
          <ul>
             <li>
                 <img src="./images/1employee.jpg" alt="1 сотрудник" width="270" height="260"/>
@@ -78,8 +82,8 @@
         </section> 
     </main>
     <footer>
-        <a href="/"> WebStudio </a> 
-        <address>
+        <a href="./index.html"> WebStudio </a> 
+        <address class="footer">
            <ul>
              <li>
                 <a href="https://bit.ly/3pXMvUd" target="_blank" rel="noreferrer noopener">г. Киев, пр-т Леси Украинки, 26"</a>
