@@ -1,22 +1,70 @@
-
+/* убираем точки списков */
 ul, ol {
-    list-style: none;
+    list-style:none;
 }
-
-a{ text-decoration: none;
-    color: #757575;
+/* убираем подчеркивание ссылок */
+a{text-decoration:none;
+    list-style-type: none; 
 }
-
+site-nav{
+    list-style-type: none;
+}
 cursor:poited
-:root{ --accent-color: #2196F3;}
 
-body {
-    font-family: 'Roboto' 'Raleway' sans-serif
-    background-color #FFFFFF;
+:root {
+    --primary-text-color: #212121;
+    --secondary-text-color: #757575;
+    --white-text-color: #ffffff;
+    --accent-color: #2196f3;
+    --black-logo-color: #000000;
+    --footer-text-color: rgba(255, 255, 255, 0.6);
+    --white-background-color: #ffffff;
+    --hero-background-color: #2f303a;
+    --team-background-color: #f5f4fa;
     
 }
+body {
+    font-family: 'Roboto' 'Raleway' sans-serif;
+    color: var(--primary-text-color);
 
+}
+
+p{
+    color: #757575;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,7;
+}
+
+h2{
+    font-family: 'Roboto';
+    color: var(--primary-text-color);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1,17;
+    text-align: center;
+}
+
+h3{
+    font-family: 'Roboto';
+    color: var(--primary-text-color);
+    font-weight: 700;
+    font-size: 14px;   
+    line-height: 1,18;    
+    text-transform: uppercase;     
+}
+/* ------------ШАПКА-------------- */
 .logo-link{
+    color: var(--accent-color);
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1,19;
+}
+.black{
     color: #212121;
     font-family: 'Raleway';
     font-weight: 700;
@@ -24,47 +72,58 @@ body {
     line-height: 1,19;
 }
 
-.blue{
-    color: var(--accent-color);
-    font-family: 'Raleway';
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1,19;
+.link-activ{
+    color: #212121;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
 }
-.logo-link:hover{
-    color: var(--accent-color)
+   
+.logo-link,.black:hover{
+    color: #2196F3;
+    
 }
 /*.link{color: #2196F3;}*/
 
-.site-nav .link:hover
-.site-nav .link:focus{
-   color: var(--accent-color);
+.link:hover{
+   color: #2196F3
 }
 
-.link:active {
-    color: var(--accent-color);}
+.link:focus{
+   color: #2196F3;
+}
 
-
-.site-nav .link:current{
-    color: var(--accent-color)
+.site-nav:active{
+    color: #2196F3
 }
 /*--header--*/
 
 .modal-btn{
+    font-weight: 700;
     font-family: 'Roboto';
+    font-family: inherit;
     background: #2196F3;
-    color: #FFFFFF
+    color: var(--white-text-color)
+    
     /*font-family: inherit*/
 }
 
-.section-one{
-    font-weight: 900;
-    line-height: 1.19;
-    background: #2F303A;
-    color: #FFFFFF
-    }
+.modal-btn:hover,
+.modal-btn:focus{
+    background: orange
+}
+.mail-link,.header-tel{
+    color: #757575;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1,14;
+}
 
-.site-nav .link{
+.site-nav{
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 500;
@@ -73,3 +132,81 @@ body {
     color: #212121
 }
 
+.section-one{
+    font-weight: 900;
+    line-height: 1.36;
+    background: #2F303A;
+    color: #FFFFFF
+    }
+.header{
+    background: #FFFFFF;
+    }
+h1 {
+    font-family: 'Roboto';
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1, 36;
+    text-align: center;
+}
+
+/* ------------ПРЕИМУЩЕСТВА-------------- */
+.hero{
+    background: #FFFFFF;
+}
+
+
+/* ----------------КОМАНДА----------------- */
+.work{
+    background: #F5F4FA;
+}
+
+.work-list{
+    background: #FFFFFF;
+}
+
+/* ----------------ПОДВАЛ----------------- */
+.footer{
+    background: #2F303A;  
+}
+.white {
+    color: #FFFFFF;
+    font-family: 'Raleway';
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1, 19;
+}
+.footer-mail,.footer-tel{
+    color: rgba(255, 255, 255, 0.6);
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,7;
+}
+.adres{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1,7;
+    color: #FFFFFF;
+}
+/* --------------------ПОРТФОЛИО----------------- */
+/* ---------------------------------------------- */
+.portfolio-btn{
+    font-family: 'Roboto';
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1,6;
+    color: #212121;
+    background: #F5F4FA;
+    cursor: poited;
+}
+
+.portfolio-btn:hover,
+.portfolio-btn:focus{
+    background-color: #2196F3;
+    color: #ffffff;
+    cursor: pointer;
+}
