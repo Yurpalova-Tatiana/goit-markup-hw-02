@@ -14,7 +14,7 @@
 }
 
 /* убираем точки списков */
-ul, ol {
+.list{
     list-style:none;
 }
 /* убираем подчеркивание ссылок */
@@ -31,8 +31,12 @@ body {
 }
 
 /* ------------ШАПКА-------------- */
-.current{
-    color:#2196f3;
+.link.current{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color: var(--accent-color);
 }
 
 .portfolio-one
@@ -44,11 +48,8 @@ body {
     color: var(--primary-text-color);
 }
 .studia-one{
-    font-weight: 500;
-        font-size: 14px;
-        line-height: 1.14;
-        letter-spacing: 0.02em;
-        color: var(--accent-color);
+   
+       
     }
 
 .logo-link{
@@ -249,13 +250,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--primary-text-color);
 }
-.portfolio-two{
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-    color: var(--accent-color);
-}
+
 .portfolio{
     font-weight: 700;
     font-size: 18px;
