@@ -23,6 +23,7 @@ a{text-decoration:none;
 
 .site-nav{
     list-style-type: none;
+    color: var(--primary-text-color);
 }
 
 cursor:pointed
@@ -208,6 +209,7 @@ body {
 }
 .footer-mail,.footer-tel{
     color: var(--footer-text-color);
+    font-style: normal;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
