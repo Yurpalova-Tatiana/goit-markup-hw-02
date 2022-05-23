@@ -21,12 +21,9 @@ ul, ol {
 a{text-decoration:none;
     list-style-type: none;}
 
-.site-nav{
-    list-style-type: none;
-    color: var(--primary-text-color);
-}
 
-cursor:pointed
+
+cursor:pointer
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -206,6 +203,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 .footer-mail,.footer-tel{
     color: var(--footer-text-color);
@@ -213,6 +211,7 @@ body {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.7;
+    letter-spacing: 0.03em;
 }
 .adres{
     font-style: normal;
@@ -220,6 +219,7 @@ body {
     font-size: 14px;
     line-height: 1,7;
     color: var(--white-text-color);
+    letter-spacing: 0.03em;
 }
 /* --------------------ПОРТФОЛИО----------------- */
 /* ---------------------------------------------- */
@@ -232,6 +232,7 @@ body {
     cursor: poited;
     border-radius: 4px;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    letter-spacing: 0.03em;
 }
 
 .portfolio-btn:hover,
