@@ -39,7 +39,7 @@ body {
     color: var(--accent-color);
 }
 
-.portfolio-one
+.portfolio-one,
 .contakt-one{
     font-weight: 500;
     font-size: 14px;
@@ -81,7 +81,7 @@ body {
 
 .link:hover,
 .link:focus{
-   color: #2196F3;
+   color: var(--accent-color);
 }
 
 
@@ -242,7 +242,7 @@ body {
     color: var(--white-text-color);
     cursor: pointed;
 }
-.studia-two
+.studia-two,
 .contact-two{
     font-weight: 500;
     font-size: 14px;
